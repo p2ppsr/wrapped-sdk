@@ -1,4 +1,4 @@
-import SDK from '@babbage/sdk'
+const SDK = require('@babbage/sdk')
 
 const style = document.createElement('style')
 
@@ -127,4 +127,4 @@ for (const [SDKFunctionName, SDKFunction] of Object.entries(SDK)) {
   }
 }
 
-export default wrappedSDK
+module.exports = wrappedSDK
