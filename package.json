@@ -1,6 +1,6 @@
 {
   "name": "@babbage/wrapped-sdk",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Babbage SDK, with minimal built-in MetaNet popup for hybrid apps",
   "main": "src/index.js",
   "repository": {
